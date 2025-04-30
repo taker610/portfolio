@@ -820,11 +820,17 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 15px;
     }
 
-    .pricing__main {
-        width: 100%;
+    #pricing p {
+        width: 80%;
+    }
+
+    .plans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .plan {
-        width: calc(100%/1);
+        width: 80%;
     }
 }
