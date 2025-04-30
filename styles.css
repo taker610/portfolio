@@ -782,4 +782,16 @@ MOBILE RESPONSIVENESS ↓
     .service {
         width: calc(100%/2);
     }
+
+    .plan__mid {
+        height: fit-content;        
+    }
+
+    .plan__mid p {
+        padding: 5px;
+    }
+
+    .testimonials__right h4 {
+        margin-top: 10px;
+    }
 }
