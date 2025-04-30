@@ -493,6 +493,7 @@ PRICING ↓
 .plan {
     width: calc(100%/3);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 10px;
     border-radius: 15px;
@@ -780,7 +781,7 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .service {
-        width: calc(100%/2);
+        width: 100%;
     }
 
     .plan__mid {
@@ -791,7 +792,39 @@ MOBILE RESPONSIVENESS ↓
         padding: 5px;
     }
 
+    .pricing__main p {
+        width: 100%;
+    }
+
     .testimonials__right h4 {
         margin-top: 10px;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .link {
+        width: calc(100%/4);
+    }
+
+    .footer__info--items {
+        margin-bottom: 15px;
+    }
+
+    .pricing__main {
+        width: 100%;
+    }
+
+    .plan {
+        width: calc(100%/1);
     }
 }
