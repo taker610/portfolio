@@ -662,7 +662,6 @@ footer {
     background-color: rgb(100, 21, 255);
     margin-bottom: -32px;
     position: relative;
-    overflow: hidden;
 }
 
 .links {
@@ -693,6 +692,33 @@ footer {
 .link p:hover {
     border-bottom: 2px solid #fff;
 }
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer__img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer__info h4 {
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h4 {
+    margin-left: 5px;
+}
+
+
 
 
 /* 
@@ -747,5 +773,13 @@ MOBILE RESPONSIVENESS ↓
     }
     main {
         margin-bottom: 80px;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    .service {
+        width: calc(100%/2);
     }
 }
