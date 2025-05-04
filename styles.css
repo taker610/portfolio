@@ -738,7 +738,7 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width: 1024px) {
 
     .btn__menu {
-        display: block;
+        display: none;
     }
     header .row {
         flex-direction: column;
@@ -761,6 +761,128 @@ MOBILE RESPONSIVENESS ↓
     }
     #pricing .row {
         margin-top: 40px;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .plan__mid {
+        height: fit-content;        
+    }
+
+    .plan__mid p {
+        padding: 5px;
+    }
+
+    .pricing__main p {
+        width: 100%;
+    }
+
+    .testimonials__right h4 {
+        margin-top: 10px;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .link {
+        width: calc(100%/4);
+    }
+
+    .footer__info--items {
+        margin-bottom: 15px;
+    }
+
+    #pricing p {
+        width: 80%;
+    }
+
+    .plans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 80%;
+        text-align: center;
+    }
+
+    #quality .quality__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    #quality .quality__img {
+        width: 80%;
+    }
+
+    #steps .quality__img {
+        width: 80%;
+    }
+
+    .steps__left {
+        width: 100%;
+        
+    }
+
+    .steps__left h1 {
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .steps__h4--primary {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .steps__left span {
+        padding-left: 10px;
+    }
+
+    #values .quality__img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    #values .values__left {
+        width: 100%;
+    }
+
+    #testimonials {
+        width: 100%;
+    }
+
+    #testimonials .container {
+        padding: 20px 0px;
+    }
+
+    #testimonials .quality__img {
+        width: 80%;
+    }
+
+    .testimonials__right {
+        width: 100%;
+    }
+
+    .start__button--wrapper {
+        text-align: center;
     }
 }
 
