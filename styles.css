@@ -738,7 +738,7 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width: 1024px) {
 
     .btn__menu {
-        display: none;
+        display: block;
     }
     header .row {
         flex-direction: column;
