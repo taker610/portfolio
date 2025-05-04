@@ -738,14 +738,34 @@ MOBILE RESPONSIVENESS ↓
 @media (max-width: 1024px) {
 
     .btn__menu {
-        display: block;
+        display: hidden;
     }
+
+
     header .row {
         flex-direction: column;
         align-items: center;
     }
     footer {
         padding: 80px 32px;
+    }
+
+    .steps__left {
+        padding-left: 15px;
+    }
+
+    .plan__mid {
+        height: fit-content;
+    }
+
+    .plan p {
+        margin-bottom: 10px;
+    }
+
+    .start__button--wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -761,10 +781,6 @@ MOBILE RESPONSIVENESS ↓
     }
     #pricing .row {
         margin-top: 40px;
-    }
-
-    .nav__links {
-        display: none;
     }
 
     .service {
@@ -882,11 +898,17 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .start__button--wrapper {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
     }
 }
 
 @media(max-width: 640px) {
+    .btn__menu {
+        display: block;
+    }
+
     .container {
         padding: 80px 0;
     }
