@@ -506,7 +506,6 @@ p.forty__width {
 }
 
 .plan__top {
-    border: 2px solid rgb(238, 233, 233);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -529,7 +528,8 @@ p.forty__width {
 }
 
 .plan__mid {
-    border: 2px solid rgb(238, 233, 233); 
+    border-top: 2px solid rgb(229, 231, 235); 
+    border-bottom: 2px solid rgb(229, 231, 235); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -550,7 +550,7 @@ p.forty__width {
 }
 
 .plan__button {
-    border: 2px solid rgb(238, 233, 233);
+    border: 1px solid rgb(238, 233, 233);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -572,6 +572,8 @@ p.forty__width {
 
 .blue {
     background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(102, 126, 234);
 }
 
 .blue h5 {
