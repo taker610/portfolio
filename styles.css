@@ -472,8 +472,13 @@ PRICING ↓
     font-size: 35px;
 }
 
-#pricing p {
-    width: 40%;
+.pricing__main p {
+    width: 100%;
+}
+
+p.forty__width {
+    width: 50%;
+    text-align: center;
 }
 
 .pricing__main {
@@ -496,6 +501,7 @@ PRICING ↓
     flex-wrap: wrap;
     flex-direction: column;
     margin: 10px;
+    border: 1px solid rgb(238, 233, 233);
     border-radius: 15px;
 }
 
@@ -531,15 +537,29 @@ PRICING ↓
     font-weight: bold;
     height: 200px;
     padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.plan__mid h2 {
+    width: 100%;
+}
+
+.plan__mid p {
+    width: 100%;
 }
 
 .plan__button {
-    border: 2px solid rgb(238, 233, 233); 
+    border: 2px solid rgb(238, 233, 233);
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.white {
+    color: white;
 }
 
 .teal {
@@ -551,7 +571,7 @@ PRICING ↓
 }
 
 .blue {
-    background: #243e63;
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
 .blue h5 {
