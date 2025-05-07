@@ -286,6 +286,7 @@ FEATURES ↓
     display: flex;
     width: calc(100%/3);
     margin-bottom: 15px;
+    padding: 25px;
 }
 
 .service h4 {
@@ -436,6 +437,7 @@ VALUES ↓
 .icon_span {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .icon-span figure {
@@ -502,7 +504,8 @@ p.forty__width {
     flex-direction: column;
     margin: 10px;
     border: 1px solid rgb(238, 233, 233);
-    border-radius: 15px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .plan__top {
@@ -515,16 +518,18 @@ p.forty__width {
 }
 
 .plan__top h5 {
-    padding-bottom: 5px;
+    padding: 10px 0px;
+    font-size: 20px;
 }
 
 .plan__top h3 {
-    padding-bottom: 5px;
+    padding: 10px;
     font-size: 35px;
 }
 
 .plan__top h6 {
-    padding-bottom: 5px;
+    padding: 10px 0px;
+    font-size: 15px;
 }
 
 .plan__mid {
@@ -535,27 +540,28 @@ p.forty__width {
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
-    height: 200px;
-    padding: 10px 10px;
+    height: 250px;
+    padding: 20px 10px 20px 10px;
     text-align: center;
     width: 100%;
 }
 
 .plan__mid h2 {
     width: 100%;
+    padding: 10px 0px;
 }
 
 .plan__mid p {
     width: 100%;
+    padding: 10px 0px;
 }
 
 .plan__button {
-    border: 1px solid rgb(238, 233, 233);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .white {
@@ -607,6 +613,18 @@ TESTIMONIALS ↓
     justify-content: space-between;
 }
 
+.testimonials__right h4.purple {
+    padding-bottom: 20px;
+}
+
+.testimonials__right p {
+    padding: 25px 0px;
+}
+
+.testimonials__right p.director {
+    padding-top: 5px;
+}
+
 .sub__img {
     display: flex;
     align-items: center;
@@ -631,6 +649,19 @@ TESTIMONIALS ↓
 .nav__button--wrapper {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+}
+
+.testimonial__rating i {
+    color: rgba(246, 173, 85);
+}
+
+.testimonial__rating {
+    padding-bottom: 20px;
+}
+
+.sub__test p {
+    padding-bottom: 5px;
 }
 
 
@@ -697,8 +728,9 @@ footer {
     display: flex;
     flex-direction: column;
     width: calc(100%/5);
-    align-items: flex-start;
+    align-items: center;
     color: #fff;
+    text-align: center;
 }
 
 .link h4 {
@@ -853,11 +885,18 @@ MOBILE RESPONSIVENESS ↓
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-radius: 8px;
+        overflow: hidden;
     }
 
     .plan {
         width: 80%;
         text-align: center;
+    }
+
+    .teal__line {
+        background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);;
+        height: 4px;
     }
 
     #quality .quality__left {
@@ -946,6 +985,10 @@ MOBILE RESPONSIVENESS ↓
         display: none;
     }
 
+    #landing .header__left {
+        text-align: center;
+    }
+
     .service {
         width: 100%;
     }
@@ -1010,8 +1053,28 @@ MOBILE RESPONSIVENESS ↓
         width: 80%;
     }
 
+    .steps__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #steps .container__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+    }
+
+    #steps .container__right h4 {
+        font-size: 25px;
+    }
+
     #steps .quality__img {
         width: 80%;
+        margin-bottom: 20px;
     }
 
     .steps__left {
@@ -1030,6 +1093,25 @@ MOBILE RESPONSIVENESS ↓
 
     #values .values__left {
         width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .sub__div--wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #values .icon_span {
+        text-align: center;
     }
 
     #testimonials {
@@ -1046,11 +1128,47 @@ MOBILE RESPONSIVENESS ↓
 
     .testimonials__right {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #testimonials .sub__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #testimonials .sub__img img {
+        margin-top: 20px;
+    }
+
+    #testimonials .sub__test p {
+        margin-bottom: 20px;
     }
 
     .start__button--wrapper {
         text-align: center;
     }
 
+    .testimonials__right .one, .two{
+        text-align: center;
+    }
 
+    footer .footer__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link h4 {
+        padding: 15px 0px;
+    
+    }
+    
 }
